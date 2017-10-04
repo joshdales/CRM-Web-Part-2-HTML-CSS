@@ -5,13 +5,13 @@ html {
 
 }
 
-/*HEADER */
+/*HEADER*/
 header > h1 {
   text-align: center;
-  font-size: 3.5em;
+  font-size: 3em;
   color: white;
   background: rgb(51, 51, 51);
-  margin-top: 0px;
+  margin: 0px;
 }
 
 nav > ul {
@@ -19,9 +19,40 @@ nav > ul {
   list-style: none;
   background: rgb(211,211,211);
   text-align: center;
+  padding: 0;
+  margin-top: 0px;
+}
+
+nav li {
+  border-bottom: 1px solid white;
 }
 
 nav a {
   text-decoration: none;
   color: white;
+}
+
+
+/*CONTACTS*/
+.contact {
+  background: rgb(0,	225,	210);
+  padding-left: 1em;
+  margin: 1em;
+}
+
+.contact > p {
+  font-size: 1.2em;
+  padding-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+
+
+/*FOOTER*/
+footer {
+  color: white;
+  background: black;
+  text-align: center;
+  line-height: 2;
+  margin-bottom: 0;
 }
