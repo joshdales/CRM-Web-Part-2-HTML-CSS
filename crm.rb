@@ -10,6 +10,14 @@ get '/contacts' do
   erb :contacts
 end
 
+get '/about' do
+  erb :about
+end
+
+get 'add_new_contact' do
+  erb :add_new_contact
+end
+
 #
 # class CRM
 #
