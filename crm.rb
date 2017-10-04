@@ -14,7 +14,7 @@ get '/about' do
   erb :about
 end
 
-get 'add_new_contact' do
+get '/add_new_contact' do
   erb :add_new_contact
 end
 
